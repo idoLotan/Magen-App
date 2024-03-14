@@ -1,6 +1,7 @@
 import React from "react";
 import LogoSvg from "../assets/Svg/LogoSvg";
 import GlobeSvg from "../assets/Svg/GlobeSvg";
+import LOGO from "../assets/img/LOGO.jpg";
 
 const Navbar = () => {
   return (
@@ -8,12 +9,12 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
       <GlobeSvg />
         <a href="" dir="rtl" className="text-sm font-semibold">
-          להציע את הבית ב-Airbnb
+    ניהול מחסן חכם
         </a>
        
       </div>
 
-      <LogoSvg />
+     <img  className="w-60" src={LOGO} alt="" />
     </navbar>
   );
 };
